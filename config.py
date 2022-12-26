@@ -6,7 +6,7 @@ API_HASH = getenv("API_HASH", "") #optional
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5610994282").split()))
 OWNER_ID = int(getenv("OWNER_ID", "5610994282")) #ur id
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://BS:<password>@cluster0.hjawjqk.mongodb.net/?retryWrites=true&w=majority") # an database
-BOT_TOKEN = getenv("BOT_TOKEN", "5971864806:AAGdFg8s_gEULjFOFk0M626kyto9QItJAto")
+BOT_TOKEN = getenv("BOT_TOKEN", "5895065870:AAEYDVPVhzDUmzx56yHSWbKHG8JKh4O7FVw")
 ALIVE_PIC = getenv("ALIVE_PIC")
 ALIVE_TEXT = getenv("ALIVE_TEXT") #optional
 PM_LOGGER = getenv("PM_LOGGER") # i'd if uh want 
