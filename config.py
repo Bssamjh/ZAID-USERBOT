@@ -1,12 +1,12 @@
 from os import getenv
 
-API_ID = int(getenv("API_ID", "6435225")) #optional
-API_HASH = getenv("API_HASH", "") #optional
+API_ID = int(getenv("API_ID", "22961833")) #optional
+API_HASH = getenv("API_HASH", "71419fa7321d55b8ee311bc0c01c9abc") #optional
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5845537042").split()))
-OWNER_ID = int(getenv("OWNER_ID", "5845537042")) #ur id
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6115381327").split()))
+OWNER_ID = int(getenv("OWNER_ID", "6115381327")) #ur id
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://BS:<password>@cluster0.hjawjqk.mongodb.net/?retryWrites=true&w=majority") # an database
-BOT_TOKEN = getenv("BOT_TOKEN", "5843455354:AAFRp-I_AzDYZfsIgTgwVnrZwMqjegHSZqk")
+BOT_TOKEN = getenv("BOT_TOKEN", "6297956070:AAHsJka3o5br7ZVi58JEiq6NLGi4nwZ-BxQ")
 ALIVE_PIC = getenv("ALIVE_PIC")
 ALIVE_TEXT = getenv("ALIVE_TEXT") #optional
 PM_LOGGER = getenv("PM_LOGGER") # i'd if uh want 
@@ -15,7 +15,7 @@ GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
 REPO_URL = getenv("REPO_URL", "https://github.com/ITZ-ZAID/ZAID-USERBOT")
 BRANCH = getenv("BRANCH", "master") #don't change
  
-STRING_SESSION1 = getenv("STRING_SESSION1", "AQBiMZkAjY9fWZx14MUuO2F6-77Fnk6jAtG5sNny6r2QqHgjf4pGaV4gxfGSccv2R7iiFcVTEakUOWPV0X9yUta5aOjDVgAcRDQ160srs-5O5Ira5gJCSXNseUA_5yMH6rDMXwkc4o1xRYD4G1FhsvjcNI0N31E5xHQf5E43M9eLq5AQR8rdNXFKYOlOJ_s-VB_rw1oYggdWs3ZEpKeOBx24o_1J_ES8X2fyFoP7UjBhMYK5k4T8msi0lWcOMba1Df-TxiWb6-ckyKBTs-yDNmdNxqHO73jGo7oM9XFEXcO8IDWL1lKe_CvBMfaLGaYs67OvotGaLYHj-xJ8H-rnyhuc7tDmzgAAAAFca9ESAA")
+STRING_SESSION1 = getenv("STRING_SESSION1", "AQBiMZkAqqHKk18h15ZSvxBm-MqN4NoJWwkyp2La6fgD2Hsq4zGXcKoLd-OPqFgA51JBYjV_AqHLobCH-fJAnfgvuHc_-5QgFQPTpjDPrCXPGlc-DJr8GXotARL46G0blEmHLbCOrSvm3OTBBIGIBTGAcRKJX6GC0mL0hTxRAr5dUj5gfU_S7-8ZfCjxxIi12UE_XiGn1BKRQRQBBRDM1KjZzdsT8pi3p_0OvZ7h_GGs_0qziow5CQ7v8Z5M6bvEStABgcCyV7TgHszRhLxJfDvuHVuwXO9jIHJEfvcG3UiEp-jNO5f3CAaRnUfUqkbwZ37fhKzpVAwph-SGLNJnFcdVlGGimgAAAAFsgVBPAA")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")
 STRING_SESSION4 = getenv("STRING_SESSION4", "")
